@@ -8,7 +8,10 @@ import org.springframework.stereotype.Service;
 public class MedicationRemover extends AbstractItemRemover<Medication> {
     @Override
     protected Medication doRemove(Medication item) throws Exception {
-        // TODO
+        repository.delete(item);
+
+        item.setId(null);
+
         return null;
     }
 }

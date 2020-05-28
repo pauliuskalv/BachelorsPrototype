@@ -26,7 +26,7 @@ hapi:
       path: /api
     rest:
       server-name: igiafhirapiexample
-      server-version: 0.0.1
+      server-version: 0.3.3
       implementation-description: igia Example FHIR Server
       default-response-encoding: json
       e-tag-support: enabled
